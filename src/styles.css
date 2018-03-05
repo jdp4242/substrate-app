@@ -33,3 +33,13 @@ body {
     font-size: 25px;
     line-height: 35px;
 }
+
+p-menubar .ui-widget-content {
+    border: none;
+    text-align: center;
+}
+
+.ui-menubar .ui-menubar-root-list>.ui-menuitem {
+    margin-left: 50px;
+    margin-right: 50px;
+}
