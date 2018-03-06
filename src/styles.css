@@ -34,6 +34,11 @@ body {
     line-height: 35px;
 }
 
+.app-panel {
+  width: 50%;
+  margin: 0 auto;
+}
+
 p-menubar .ui-widget-content {
     border: none;
     text-align: center;
@@ -50,19 +55,19 @@ p-menubar .ui-widget-content {
     width: 840px;
     margin: 0 auto;
     border: 1px solid #d9d9d9;
+    border-radius: 10px;
     background: #f6f7f9;
     color: #1b1d1f;
   }
   
   .slide-wrapper {
-    width: 3360px;
+    /* width: 3360px; */
+     width: 2520px;
     -webkit-animation: slide 18s ease infinite;
   }
   
   .slide {
     float: left;
-    /* min-height: 450px;
-    min-width: 800px;*/
     height: 472px;
     width: 840px;
   }
