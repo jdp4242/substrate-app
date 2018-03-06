@@ -35,8 +35,16 @@ body {
 }
 
 .app-panel {
-  width: 50%;
+  width: 55%;
   margin: 0 auto;
+}
+
+.app-panel .ui-panel-titlebar {
+  margin-bottom: 50px;
+}
+
+.app-panel .ui-panel-content {
+  padding-bottom: 60px;
 }
 
 p-menubar .ui-widget-content {

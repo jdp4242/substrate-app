@@ -15,8 +15,10 @@ export class MenuComponent implements OnInit {
   navItems: MenuItem[];
 
   ngOnInit() {
-    this.navItems = [
-      {label: 'Home', icon: 'fa fa-home', url: 'home'},
+    this.navItems = [{
+        label: 'Home', icon: 'fa fa-home', routerLink: 'home',
+        styleClass: "ui-state-active"
+      },
       {label: 'Contact', icon: 'fa fa-info-circle'},
       {label: 'Services', icon: 'fa fa-truck'},
       {label: 'Color Charts', icon: 'fa fa-columns'},
