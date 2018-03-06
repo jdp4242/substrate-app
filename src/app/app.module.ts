@@ -10,12 +10,14 @@ import {MenubarModule} from 'primeng/menubar';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { MenuComponent } from './menu/menu.component';
+import { HomeComponent } from './home/home.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    MenuComponent
+    MenuComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,

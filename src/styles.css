@@ -43,3 +43,55 @@ p-menubar .ui-widget-content {
     margin-left: 50px;
     margin-right: 50px;
 }
+
+#slideshow {
+    overflow: hidden;
+    height: 472px;
+    width: 840px;
+    margin: 0 auto;
+    border: 1px solid #d9d9d9;
+    background: #f6f7f9;
+    color: #1b1d1f;
+  }
+  
+  .slide-wrapper {
+    width: 3360px;
+    -webkit-animation: slide 18s ease infinite;
+  }
+  
+  .slide {
+    float: left;
+    /* min-height: 450px;
+    min-width: 800px;*/
+    height: 472px;
+    width: 840px;
+  }
+  
+  .slide:nth-child(1) {
+    /* background: './assets/home/intro-1.jpg'; */
+    background-image: url('assets/home/intro-1.jpg');
+  }
+  
+  .slide:nth-child(2) {
+    background-image: url('assets/home/intro-2.jpg');
+  }
+  
+  .slide:nth-child(3) {
+    background-image: url('assets/home/intro-3.jpg');
+  }
+  
+  .slide-number {
+    color: #000;
+    text-align: center;
+    font-size: 10em;
+  }
+  
+  @-webkit-keyframes slide {
+    20% {margin-left: 0px;}
+    30% {margin-left: -840px;}
+    50% {margin-left: -840px;}
+    60% {margin-left: -1680px;}
+    70% {margin-left: -1680px;}
+    /* 80% {margin-left: -2520px;}
+    90% {margin-left: -2520px;} */
+  }
