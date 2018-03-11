@@ -97,7 +97,7 @@ p-menubar .ui-widget-content {
   
   .slide-wrapper {
      width: 3724px;
-    -webkit-animation: slide 18s ease infinite;
+    animation: slide 18s ease infinite;
   }
   
   .slide {
@@ -124,7 +124,7 @@ p-menubar .ui-widget-content {
     font-size: 10em;
   }
   
-  @-webkit-keyframes slide {
+  @keyframes slide {
     20% {margin-left: 0px;}
     30% {margin-left: -1026px;}
     50% {margin-left: -1026px;}
