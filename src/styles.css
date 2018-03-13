@@ -15,6 +15,7 @@ body {
 
 .title-container {
     margin-top: 50px;
+    margin-bottom: 25px;
     text-align: center;
 }
 
@@ -78,11 +79,7 @@ p-menubar .ui-widget-content {
 .contact {
   margin: 0 auto;
   text-align: center;
-}
-
-.contact-details .name-post:before {
-  content: '\2022';
-  margin-right: 1px;
+  padding-top: 10px;
 }
 
 #slideshow {
