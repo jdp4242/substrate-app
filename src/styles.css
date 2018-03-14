@@ -10,8 +10,33 @@ body {
     color: #404C51;
     -webkit-font-smoothing: antialiased;
     font-size: 1em;
-} 
+}
 
+.ui-panel .ui-panel-content {
+  height: 578px;
+  width: 1026px;  
+}
+
+p-accordiontab .ui-accordion-header {
+  height: 100px;
+  line-height: 3;
+  font-size: 20px;
+}
+
+p-accordiontab .ui-accordion-content-wrapper {
+  margin-bottom: 50px;
+  font-size: 18px;
+  line-height: 2;
+}
+
+p-accordion .ui-accordion .ui-accordion-content {
+  padding: 0 1em 0 0;
+}
+
+p-accordiontab .ui-accordion-content {
+  margin-left: 1em;
+  margin-top: -25px;
+}
 
 .title-container {
     margin-top: 50px;

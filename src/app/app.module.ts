@@ -6,18 +6,21 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { PanelModule } from 'primeng/panel';
 import {MenubarModule} from 'primeng/menubar';
+import { AccordionModule } from 'primeng/accordion';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { MenuComponent } from './menu/menu.component';
 import { HomeComponent } from './home/home.component';
+import { ServicesComponent } from './services/services.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     MenuComponent,
-    HomeComponent
+    HomeComponent,
+    ServicesComponent
   ],
   imports: [
     BrowserModule,
@@ -26,7 +29,8 @@ import { HomeComponent } from './home/home.component';
     AppRoutingModule,
     PanelModule,
     BrowserAnimationsModule,
-    MenubarModule
+    MenubarModule,
+    AccordionModule
   ],
   providers: [],
   bootstrap: [AppComponent]
