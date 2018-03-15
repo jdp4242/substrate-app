@@ -13,7 +13,7 @@ body {
 }
 
 .ui-panel .ui-panel-content {
-  height: 578px;
+  height: 592px;
   width: 1026px;  
 }
 
@@ -106,6 +106,10 @@ p-menubar .ui-widget-content {
   text-align: center;
   padding-top: 10px;
 }
+/* 
+.contact address {
+  text-align: left;
+} */
 
 #slideshow {
     overflow: hidden;
@@ -124,7 +128,7 @@ p-menubar .ui-widget-content {
   
   .slide {
     float: left;
-    height: 578px;
+    height: 592px;
     width: 1026px;
   }
   
