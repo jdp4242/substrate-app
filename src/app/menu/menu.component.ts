@@ -20,7 +20,7 @@ export class MenuComponent implements OnInit {
         styleClass: "ui-state-active"
       },
       {label: 'Services', icon: 'fa fa-truck', routerLink: 'services'},
-      {label: 'Color Charts', icon: 'fa fa-columns'},
+      {label: 'Color Charts', icon: 'fa fa-columns', routerLink: 'charts'},
       {label: 'Gallery', icon: 'fa fa-camera'}
     ];
   }

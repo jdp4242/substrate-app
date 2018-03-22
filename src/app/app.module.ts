@@ -7,12 +7,14 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { PanelModule } from 'primeng/panel';
 import {MenubarModule} from 'primeng/menubar';
 import { AccordionModule } from 'primeng/accordion';
+import {LightboxModule} from 'primeng/lightbox';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { MenuComponent } from './menu/menu.component';
 import { HomeComponent } from './home/home.component';
 import { ServicesComponent } from './services/services.component';
+import { ColorChartComponent } from './color-chart/color-chart.component';
 
 
 @NgModule({
@@ -20,7 +22,8 @@ import { ServicesComponent } from './services/services.component';
     AppComponent,
     MenuComponent,
     HomeComponent,
-    ServicesComponent
+    ServicesComponent,
+    ColorChartComponent
   ],
   imports: [
     BrowserModule,
@@ -30,7 +33,8 @@ import { ServicesComponent } from './services/services.component';
     PanelModule,
     BrowserAnimationsModule,
     MenubarModule,
-    AccordionModule
+    AccordionModule,
+    LightboxModule
   ],
   providers: [],
   bootstrap: [AppComponent]

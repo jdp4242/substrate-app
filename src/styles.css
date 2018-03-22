@@ -12,6 +12,10 @@ body {
     font-size: 1em;
 }
 
+address, .contact-details {
+  font-size: 12px;
+}
+
 .ui-panel .ui-panel-content {
   height: 592px;
   width: 1026px;  
@@ -27,6 +31,10 @@ p-accordiontab .ui-accordion-content-wrapper {
   margin-bottom: 50px;
   font-size: 18px;
   line-height: 2;
+}
+
+p-accordiontab a {
+  text-decoration: none;
 }
 
 p-accordion .ui-accordion .ui-accordion-content {
@@ -81,7 +89,7 @@ p-menubar .ui-widget-content {
 }
 
 .app-panel .ui-panel-footer {
-  padding-bottom: 25px;
+  padding-bottom: 5px;
   border-width: 1px 1px 1px 1px;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
@@ -104,12 +112,12 @@ p-menubar .ui-widget-content {
 .contact {
   margin: 0 auto;
   text-align: center;
-  padding-top: 10px;
+  padding-top: 5px;
 }
-/* 
-.contact address {
-  text-align: left;
-} */
+
+p-lightbox a {
+  margin: 10px;
+}
 
 #slideshow {
     overflow: hidden;
