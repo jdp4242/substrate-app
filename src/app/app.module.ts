@@ -8,6 +8,7 @@ import { PanelModule } from 'primeng/panel';
 import {MenubarModule} from 'primeng/menubar';
 import { AccordionModule } from 'primeng/accordion';
 import {LightboxModule} from 'primeng/lightbox';
+import {GalleriaModule} from 'primeng/galleria';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -15,6 +16,7 @@ import { MenuComponent } from './menu/menu.component';
 import { HomeComponent } from './home/home.component';
 import { ServicesComponent } from './services/services.component';
 import { ColorChartComponent } from './color-chart/color-chart.component';
+import { GalleryComponent } from './gallery/gallery.component';
 
 
 @NgModule({
@@ -23,7 +25,8 @@ import { ColorChartComponent } from './color-chart/color-chart.component';
     MenuComponent,
     HomeComponent,
     ServicesComponent,
-    ColorChartComponent
+    ColorChartComponent,
+    GalleryComponent
   ],
   imports: [
     BrowserModule,
@@ -34,7 +37,8 @@ import { ColorChartComponent } from './color-chart/color-chart.component';
     BrowserAnimationsModule,
     MenubarModule,
     AccordionModule,
-    LightboxModule
+    LightboxModule,
+    GalleriaModule
   ],
   providers: [],
   bootstrap: [AppComponent]

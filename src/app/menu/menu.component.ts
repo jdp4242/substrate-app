@@ -21,7 +21,7 @@ export class MenuComponent implements OnInit {
       },
       {label: 'Services', icon: 'fa fa-truck', routerLink: 'services'},
       {label: 'Color Charts', icon: 'fa fa-columns', routerLink: 'charts'},
-      {label: 'Gallery', icon: 'fa fa-camera', disabled: true}
+      {label: 'Gallery', icon: 'fa fa-camera', routerLink: 'gallery'}
     ];
   }
 
