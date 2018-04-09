@@ -1,7 +1,7 @@
 version: 0.1
 environment_variables:
     plaintext:
-        S3_BUCKET: "substrateepoxy-dev.com"
+        S3_BUCKET: "www.substrateepoxy.com"
         BUILD_ENV: "prod"
 phases:
     install:
