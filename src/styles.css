@@ -141,16 +141,36 @@ p-lightbox a {
   }
   
   .slide:nth-child(1) {
-    background-image: url('assets/home/intro-1.jpg');
+    background-image: url('assets/home/intro-1-1.jpg');
   }
   
   .slide:nth-child(2) {
-    background-image: url('assets/home/intro-2.jpg');
+    background-image: url('assets/home/intro-1-5.jpg');
   }
   
   .slide:nth-child(3) {
-    background-image: url('assets/home/intro-3.jpg');
+    background-image: url('assets/home/intro-1-7.jpg');
   }
+
+  /* .slide:nth-child(4) {
+    background-image: url('assets/home/intro-1-4.jpg');
+  }
+
+  .slide:nth-child(5) {
+    background-image: url('assets/home/intro-1-5.jpg');
+  }
+
+  .slide:nth-child(6) {
+    background-image: url('assets/home/intro-1-6.jpg');
+  }
+
+  .slide:nth-child(7) {
+    background-image: url('assets/home/intro-1-7.jpg');
+  }
+
+  .slide:nth-child(8) {
+    background-image: url('assets/home/intro-1-8.jpg');
+  } */
   
   .slide-number {
     color: #000;

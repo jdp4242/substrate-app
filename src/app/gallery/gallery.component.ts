@@ -14,20 +14,20 @@ export class GalleryComponent implements OnInit {
 
   ngOnInit() {
     this.images = [];
-    // this.images.push({source: 'assets/gallery/gallery-1.jpg', alt: '', title: 'Sample #1'});
-    // this.images.push({source: 'assets/gallery/gallery-2.jpg', alt: '', title: 'Sample #2'});
-    // this.images.push({source: 'assets/gallery/gallery-3.jpg', alt: '', title: 'Sample #3'});
-    // this.images.push({source: 'assets/gallery/gallery-4.jpg', alt: '', title: 'Sample #4'});
-    // this.images.push({source: 'assets/gallery/gallery-5.jpg', alt: '', title: 'Sample #5'});
-    // this.images.push({source: 'assets/gallery/gallery-6.jpg', alt: '', title: 'Sample #6'});
-    // this.images.push({source: 'assets/gallery/gallery-7.jpg', alt: '', title: 'Sample #7'});
-    this.images.push({source: 'assets/gallery/gallery2-1.jpg', alt: '', title: 'Sample #1'});
-    this.images.push({source: 'assets/gallery/gallery2-2.jpg', alt: '', title: 'Sample #2'});
-    this.images.push({source: 'assets/gallery/gallery2-3.jpg', alt: '', title: 'Sample #3'});
-    this.images.push({source: 'assets/gallery/gallery2-4.jpg', alt: '', title: 'Sample #4'});
-    this.images.push({source: 'assets/gallery/gallery2-5.jpg', alt: '', title: 'Sample #5'});
-    this.images.push({source: 'assets/gallery/gallery2-6.jpg', alt: '', title: 'Sample #6'});
-    this.images.push({source: 'assets/gallery/gallery2-7.jpg', alt: '', title: 'Sample #7'});
-    this.images.push({source: 'assets/gallery/gallery2-8.jpg', alt: '', title: 'Sample #8'});
+    this.images.push({source: 'assets/gallery/gallery-1.jpg', alt: '', title: 'Sample #1'});
+    this.images.push({source: 'assets/gallery/gallery-2.jpg', alt: '', title: 'Sample #2'});
+    this.images.push({source: 'assets/gallery/gallery-3.jpg', alt: '', title: 'Sample #3'});
+    this.images.push({source: 'assets/gallery/gallery-4.jpg', alt: '', title: 'Sample #4'});
+    this.images.push({source: 'assets/gallery/gallery-5.jpg', alt: '', title: 'Sample #5'});
+    this.images.push({source: 'assets/gallery/gallery-6.jpg', alt: '', title: 'Sample #6'});
+    this.images.push({source: 'assets/gallery/gallery-7.jpg', alt: '', title: 'Sample #7'});
+    this.images.push({source: 'assets/gallery/gallery2-1.jpg', alt: '', title: 'Sample #8'});
+    this.images.push({source: 'assets/gallery/gallery2-2.jpg', alt: '', title: 'Sample #9'});
+    this.images.push({source: 'assets/gallery/gallery2-3.jpg', alt: '', title: 'Sample #10'});
+    this.images.push({source: 'assets/gallery/gallery2-4.jpg', alt: '', title: 'Sample #11'});
+    this.images.push({source: 'assets/gallery/gallery2-5.jpg', alt: '', title: 'Sample #12'});
+    this.images.push({source: 'assets/gallery/gallery2-6.jpg', alt: '', title: 'Sample #13'});
+    this.images.push({source: 'assets/gallery/gallery2-7.jpg', alt: '', title: 'Sample #14'});
+    this.images.push({source: 'assets/gallery/gallery2-8.jpg', alt: '', title: 'Sample #15'});
   }
 }
