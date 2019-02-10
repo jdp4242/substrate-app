@@ -29,5 +29,6 @@ export class GalleryComponent implements OnInit {
     this.images.push({source: 'assets/gallery/gallery2-6.jpg', alt: '', title: 'Sample #13'});
     this.images.push({source: 'assets/gallery/gallery2-7.jpg', alt: '', title: 'Sample #14'});
     this.images.push({source: 'assets/gallery/gallery2-8.jpg', alt: '', title: 'Sample #15'});
+    this.images.push({source: 'assets/gallery/gallery2-9.jpg', alt: '', title: 'Sample #16'});
   }
 }
