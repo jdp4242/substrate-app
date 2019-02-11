@@ -17,6 +17,7 @@ import { HomeComponent } from './home/home.component';
 import { ServicesComponent } from './services/services.component';
 import { ColorChartComponent } from './color-chart/color-chart.component';
 import { GalleryComponent } from './gallery/gallery.component';
+import { AboutComponent } from './about/about.component';
 
 
 @NgModule({
@@ -26,7 +27,8 @@ import { GalleryComponent } from './gallery/gallery.component';
     HomeComponent,
     ServicesComponent,
     ColorChartComponent,
-    GalleryComponent
+    GalleryComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,

@@ -187,3 +187,23 @@ p-lightbox a {
     /* 80% {margin-left: -2520px;}
     90% {margin-left: -2520px;} */
   }
+
+  div.about { 
+   width: 55%;
+   margin: auto;
+   line-height: 30px;
+   font-size: 14pt;
+  }
+
+  div.items { 
+    margin-top: 25px;
+    margin-bottom: 25px;
+    text-align: center;
+    line-height: 25px;
+    font-size: 14pt;
+  }
+
+  div.aboutContainer { 
+    widows: 50%;
+    margin-top: 5%;
+  }

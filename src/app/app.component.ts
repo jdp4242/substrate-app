@@ -10,5 +10,5 @@ import {PanelModule} from 'primeng/panel';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'SUBSTRATE  ';
+  title = 'SUBSTRATE';
 }
