@@ -9,17 +9,35 @@ import {LightboxModule} from 'primeng/lightbox';
 })
 export class ColorChartComponent implements OnInit {
 
-  concretes: any[];
-  epoxies: any[];
+  colorCharts: any[];
 
   constructor() {
-    this.concretes = []; 
-    this.concretes.push({source: 'assets/color-charts/concrete-stain-cc.jpg', thumbnail: 'assets/color-charts/concrete-stain-cc-thumb.jpg', title: 'Concrete Stain'});
+    this.colorCharts = []; 
 
-    this.epoxies = [];
-    this.epoxies.push({source: 'assets/color-charts/epoxy-solid-cc.jpg', thumbnail: 'assets/color-charts/epoxy-solid-cc-thumb.jpg', title: 'Solid Epoxy'});
-    this.epoxies.push({source: 'assets/color-charts/epoxy-quartz-cc.jpg', thumbnail: 'assets/color-charts/epoxy-quartz-cc-thumb.jpg', title: 'Quartz Epoxy'});
-    this.epoxies.push({source: 'assets/color-charts/epoxy-metallic-cc.jpg', thumbnail: 'assets/color-charts/epoxy-metallic-cc-thumb.jpg', title: 'Metallic Epoxy'});
+    this.colorCharts.push({
+      source: 'assets/color-charts/epoxy-quartz.jpg', 
+      thumbnail: 'assets/color-charts/epoxy-quartz-thumb.jpg', 
+      title: 'Epoxy Quartz'});
+
+    this.colorCharts.push({
+      source: 'assets/color-charts/epoxy-solid-colors.jpg', 
+      thumbnail: 'assets/color-charts/epoxy-solid-colors-thumb.jpg', 
+      title: 'Epoxy Solid Colors'});
+
+    this.colorCharts.push({
+        source: 'assets/color-charts/epoxy-vinyl-flakes.jpg', 
+        thumbnail: 'assets/color-charts/epoxy-vinyl-flakes-thumb.jpg', 
+        title: 'Epoxy Vinyl Flakes'});
+
+    this.colorCharts.push({
+        source: 'assets/color-charts/epoxy-metallic-colors.jpg', 
+        thumbnail: 'assets/color-charts/epoxy-metallic-colors-thumb.jpg', 
+        title: 'Epoxy Metallic Colors'});
+
+    this.colorCharts.push({
+        source: 'assets/color-charts/acid-concrete-stains.jpg', 
+        thumbnail: 'assets/color-charts/acid-concrete-stains-thumb.jpg', 
+        title: 'Acid Concrete Stains'});
   }
 
   ngOnInit() {
