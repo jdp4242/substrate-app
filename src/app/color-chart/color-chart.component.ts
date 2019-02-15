@@ -10,9 +10,11 @@ import {LightboxModule} from 'primeng/lightbox';
 export class ColorChartComponent implements OnInit {
 
   colorCharts: any[];
+  acidStain: any[];
 
   constructor() {
     this.colorCharts = []; 
+    this.acidStain = [];
 
     this.colorCharts.push({
       source: 'assets/color-charts/epoxy-quartz.jpg', 
@@ -34,7 +36,7 @@ export class ColorChartComponent implements OnInit {
         thumbnail: 'assets/color-charts/epoxy-metallic-colors-thumb.jpg', 
         title: 'Epoxy Metallic Colors'});
 
-    this.colorCharts.push({
+    this.acidStain.push({
         source: 'assets/color-charts/acid-concrete-stains.jpg', 
         thumbnail: 'assets/color-charts/acid-concrete-stains-thumb.jpg', 
         title: 'Acid Concrete Stains'});
