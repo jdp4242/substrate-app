@@ -196,8 +196,8 @@ p-lightbox a {
   }
 
   div.items { 
-    margin-top: 25px;
-    margin-bottom: 25px;
+    margin-top: 15px;
+    margin-bottom: 15px;
     text-align: center;
     line-height: 25px;
     font-size: 14pt;
@@ -205,5 +205,18 @@ p-lightbox a {
 
   div.aboutContainer { 
     widows: 50%;
-    margin-top: 5%;
+    margin-top: 2%;
+  }
+
+  div.footer { 
+    margin-top: 10px;
+  }
+
+  div.about-footer {
+    text-align: center;
+    font-weight: bold;
+  }
+
+  div.hilite { 
+    color: blue;
   }
